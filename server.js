@@ -8,9 +8,10 @@ const app = express();
 // * The app will need routes for index and show
 // * The app will need views for index and show
 //
-// * Make it so you can click on a mission’s name on the index page, and be taken to that mission’s show page
-// * Bonus: add images to the data and have them display
-// * Bonus: add static css to style the pages
+// * User should be able to click on a mission’s name on the index page, and be taken to that mission’s show page
+//
+// * Bonus/Hungry for More: add images to the data and have them display (google how)
+// * Bonus/Hungry for More: add static css to style the pages (google how)
 
 // NOTES:
 // ejs has not been installed
