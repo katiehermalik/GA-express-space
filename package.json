@@ -1,0 +1,22 @@
+{
+  "name": "space-hw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.generalassemb.ly:WebDev-Connected-Classroom/space-Hw.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.3",
+    "mocha": "^5.2.0",
+    "supertest": "^3.3.0"
+  }
+}
