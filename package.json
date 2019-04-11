@@ -1,22 +1,38 @@
 {
-  "name": "space-hw",
-  "version": "1.0.0",
-  "description": "",
+  "name": "express-space-homework",
+  "version": "1.0.1",
+  "description": "get your hands dirty learning about express mechanics, and implementing your own show and index routes and views",
   "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
   "scripts": {
-    "test": "mocha --exit"
+    "test": "mocha --exit",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git@git.generalassemb.ly:WebDev-Connected-Classroom/space-Hw.git"
+    "url": "git@git.generalassemb.ly:WebDev-Connected-Classroom/express-space-homework.git"
   },
-  "author": "",
+  "keywords": [
+    "express",
+    "params",
+    "http-methods",
+    "following-directions",
+    "REST",
+    "index",
+    "show",
+    "mars",
+    "NASA",
+    "space"
+  ],
+  "author": "Matt Huntington, Thom Page, Reuben Ayres, Ryan Fleharty",
   "license": "ISC",
   "dependencies": {
     "chai": "^4.2.0",
-    "cheerio": "^1.0.0-rc.2",
-    "express": "^4.16.3",
-    "mocha": "^5.2.0",
-    "supertest": "^3.3.0"
+    "cheerio": "^1.0.0-rc.3",
+    "express": "^4.16.4",
+    "mocha": "^6.1.2",
+    "supertest": "^4.0.2"
   }
 }
