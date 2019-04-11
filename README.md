@@ -5,5 +5,6 @@
 * Fork this repo and clone your fork.
 * Run <code>npm install</code> to install necessary packages.
 * Follow the directions in `server.js`
-* Run <code>npm test</code> to run automated testing and confirm your assignment meets specs.
+* As you work, after each route and view that you add, try going to the URLs/views and clicking the links and make sure they are working like you expect.
+* When you complete the assignment, run <code>npm test</code> to run automated testing and confirm your assignment meets specs.
 
