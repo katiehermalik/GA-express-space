@@ -5,7 +5,7 @@ const should = chai.should()
 const cheerio = require('cheerio');
 
 describe('mission routes', function(){
-    it('displays the missions at the index route', function(done){
+    it('displays the missions at the index route, \"\/missions\"', function(done){
         supertest(app)
             .get('/missions')
             .expect(200)
@@ -16,7 +16,7 @@ describe('mission routes', function(){
             })
             .end(done);
     })
-    it('displays a specific mission by index', function(done){
+    it('displays a specific mission by index, \"\/missions\/0\"', function(done){
         supertest(app)
         .get('/missions/0')
         .expect(200)
