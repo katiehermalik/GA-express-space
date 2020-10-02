@@ -18,6 +18,11 @@ const port = 3000;
 // Set View Engine
 app.set('view engine', 'ejs');
 
+// Root Route
+app.get('/', (req, res) => {
+  res.send('<h1>Express Parameters: Missions to Mars!</h1>');
+});
+
 // LISTENER
 app.listen(port, function() {
   console.log('Missions to Mars running on port: ', port);
