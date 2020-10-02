@@ -23,6 +23,9 @@ app.get('/', (req, res) => {
   res.send('<h1>Express Parameters: Missions to Mars!</h1>');
 });
 
+// Missions Route
+app.use('/missions', missionCtrl);
+
 // LISTENER
 app.listen(port, function() {
   console.log('Missions to Mars running on port: ', port);
