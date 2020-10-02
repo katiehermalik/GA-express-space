@@ -7,5 +7,10 @@
 </head>
 <body>
   <h1>Missions Index Page</h1>
+  <ul class="missions">
+    <% for (i = 0; i < marsMissions.length; i++) { %>
+        <li><a href="/missions/<%= i %>"><%=marsMissions[i].name%></a></li> 
+    <% } %>  
+  </ul>
 </body>
 </html>
