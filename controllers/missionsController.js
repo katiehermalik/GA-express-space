@@ -9,7 +9,11 @@ const marsMissions = require('../models/missionsModel');
 // the view should display just the names of each mission
 // display the mission names as <li> in a <ul> with the class name "missions"
 
-
+router.get('/', (req, res) => {     
+  res.render('missions/indexMissions', {
+    marsMissions,
+  });
+});
 
 // SHOW Route
 // send data to 'missions/show.ejs' view
