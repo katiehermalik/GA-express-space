@@ -18,6 +18,8 @@ const port = 3000;
 // Set View Engine
 app.set('view engine', 'ejs');
 
+const missionCtrl = require('./controllers/missionsController');
+
 // Root Route
 app.get('/', (req, res) => {
   res.send('<h1>Express Parameters: Missions to Mars!</h1>');

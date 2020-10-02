@@ -37,4 +37,4 @@ const marsMissions = [
   }
 ];
 
-module.exports = marsMission;
+module.exports = marsMissions;
